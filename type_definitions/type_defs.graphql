@@ -1,0 +1,9 @@
+type Query {
+    hotel(id: Int!): Hotel
+    hotels: [Hotel!]!
+}
+type Hotel {
+    id: String!
+    name: String
+    location: String
+}
